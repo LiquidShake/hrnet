@@ -1,0 +1,75 @@
+form{
+    background: #E6595C;
+    padding: 30px;
+    max-width: 60%;
+    margin: 30px auto;
+    border-radius: 50px;
+    fieldset{
+        width: 300px;
+        margin: 30px auto;
+        padding: 20px;
+        border-radius: 10px;
+        legend{
+            font-weight: bold;
+            font-size: 18px;
+            text-align: center;
+            color: #2B5690;
+            margin: auto;
+        }
+        label{
+            margin: 10px auto;
+            color: white;
+            &, input{
+                display: block;
+            }
+        }
+        input, .dropdown{
+            border: 1px solid white;
+            background: none;
+            border-radius: 50px;
+            padding: 7px 15px;
+            display: block;
+            margin: 7px 0;
+            width: 100%;
+            color: white;
+            &:focus{
+                outline: none;
+            }
+        }
+        .dropdown{
+            padding: 9px 15px;
+            option{
+                color: black;
+            }
+        }
+    }
+    button{
+        display: block;
+        margin: auto;
+        padding: 10px 30px;
+        border-radius: 50px;
+        box-shadow: none;
+        border: none;
+        background: #2B5690;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        transition: all .2s ease;
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+}
+
+.chakra-modal__content-container{
+    align-items: center !important;
+    .chakra-modal__content{
+        .chakra-modal__close-btn{
+            position: absolute;
+            top: -15px;
+            right: -15px;
+            background: white;
+            border-radius: 50%;
+        }
+    }
+}
