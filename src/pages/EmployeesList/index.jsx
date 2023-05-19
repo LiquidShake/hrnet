@@ -103,10 +103,7 @@ export default function EmployeesList() {
           <input id="search" type="text" onChange={handleSearch} />
         </label>
         <DataTable columns={columns} data={filteredData} pagination/>
-        <div className="secondary-nav">
-          <Link to='/'>Home</Link>
-          <Link to='/create-employee'>Add a new employee</Link>
-        </div>
+        <Link to='/'>Add new employee</Link>
       </div>
     </main>
   )

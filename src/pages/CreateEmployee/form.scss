@@ -1,9 +1,10 @@
 form{
-    background: #E6595C;
     padding: 30px;
     max-width: 60%;
     margin: 30px auto;
     border-radius: 50px;
+    box-shadow: 5px 5px 25px rgba(0,0,0,0.2);
+    text-align: left;
     fieldset{
         width: 300px;
         margin: 30px auto;
@@ -13,12 +14,10 @@ form{
             font-weight: bold;
             font-size: 18px;
             text-align: center;
-            color: #2B5690;
             margin: auto;
         }
         label{
             margin: 10px auto;
-            color: white;
             &, input{
                 display: block;
             }
@@ -31,7 +30,7 @@ form{
             display: block;
             margin: 7px 0;
             width: 100%;
-            color: white;
+            box-shadow: 5px 5px 20px rgba(0,0,0,0.2) inset;
             &:focus{
                 outline: none;
             }
